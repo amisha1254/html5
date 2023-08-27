@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title></title>
+    <style>
+        div{
+            border: 1px solid blue;
+            padding: 10px;
+            height: 100px;
+            width: 100px;
+            margin-bottom: 20px;
+            line-height: 100px;
+            text-align: center;
+            background-color: aquamarine;
+
+            animation-name: rolling;
+            animation-delay: 5s;
+            animation-duration: 10s;
+            animation-timing-function: all;
+            animation-iteration-count: 2;
+        }
+        @keyframes rolling{
+            0%{
+                transform: rotate(0deg) scale(1);
+            }
+            100%{
+                transform: rotate(360deg) scale(0.5);
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div>one</div>
+    <div>two</div>
+    <div>three</div>
+    <div>four</div>
+</body>
+</html>

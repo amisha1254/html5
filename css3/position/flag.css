@@ -1,0 +1,44 @@
+.orange,.white,.green{
+    height: 60px;
+    width: 250px;
+}
+.orange{
+    background-color: orange;
+    
+}
+.white{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.green{
+    background-color: green;
+}
+.circle{
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+    outline: 1px solid darkblue;
+    position: relative;
+}
+.line{
+    position:absolute;
+    height: 100%;
+    width: 1px;
+    background-color: darkblue;
+    left:50%;
+
+}
+.circle li{
+    list-style: none;
+}
+.circle li:nth-child(1) {
+
+        transform: rotate(15deg);
+    }
+.circle li:nth-child(2) {
+
+        transform: rotate(30deg);
+    }
+

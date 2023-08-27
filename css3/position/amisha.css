@@ -1,0 +1,30 @@
+.c1{
+    border: 2px solid blue;
+    padding: 2px;
+    margin: 10px;
+    background-color: cyan;
+}
+.c2{
+    border: 2px solid blue;
+    padding: 2px;
+    margin: 10px;
+    background-color: rgb(255, 77, 0);
+    position: absolute;
+    top:70px;
+    right: 80px;
+    left: 90px;
+}
+.c3{
+    border: 2px solid blue;
+    padding: 2px;
+    margin: 10px;
+    background-color: rgb(174, 255, 0);
+    position: relative;
+    
+}
+.c4{
+    border: 2px solid rgb(255, 0, 89);
+    padding: 2px;
+    margin: 10px;
+    background-color: rgb(255, 0, 251);
+}
