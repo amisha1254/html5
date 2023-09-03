@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title></title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .main{
+            background-color: white;
+            height: 550px;
+            width: 400px;
+            border: 2px solid white;
+            position: relative;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 35%;
+            margin-top: 10%;
+            border-radius: 25px;
+        }
+         .logo img{
+            margin: 0;
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            
+        }
+        .well{
+            margin-left: 40%;
+            margin-top: 30%;
+            font-size: x-large;
+
+        }
+        .sen{
+            color: gray;
+            margin-left: 15%;
+        }
+        .input-container {
+            position: relative;
+            margin: 20px;
+            margin-left: 30%;
+        }
+
+        input {
+            padding: 10px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .input-container label {
+            position: absolute;
+            top: -12px;
+            left: 10px;
+            background-color: white;
+            padding: 0 5px;
+        }
+        .pass{
+            position: relative;
+            margin: 25px;
+            margin-left: 30%;
+        }
+        button{
+            padding-top: 10px;
+            padding-left: 85px;
+            padding-right: 85px;
+            padding-bottom: 10px;
+    
+            background-color:blue ;
+            margin-top: 10px;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+       <div class="logo"> <img src="logo.ab024049.png" alt=""></div>
+       <div class="well"><p>welcome</p></div>
+       <div class="sen"><p>Log in to Digital Lync to continue to Digita Lync LMS.</p></div>
+        <form action="" method="get">
+            <div class="input-container">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your name" required>
+            </div>
+            <div class="pass">
+               <label for="password"></label>
+               <input type="text" id ="password" placeholder="password" required>
+                <button style="color: white;" type="submit" onclick="navigateToLocalPage();">continue</button>
+                <script>
+                    function navigateToLocalPage() {
+                      // Replace 'local-page.html' with the path to your local page
+                      window.location.href = 'page3.html';
+                    }
+                  </script>
+            </div>
+           
+        </form>
+        
+    </form>
+    </div>
+</body>
+</html>
