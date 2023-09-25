@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1>Add Event Listener </h1>
+    <button id ="id1">Click</button>
+    <script>
+        var v1=document.getElementById("id1");
+        v1.addEventListener("click",function(){alert("eventOne")})
+        var v1=document.getElementById("id1");
+        v1.addEventListener("click",()=>{alert("eventtwo")})
+        function f1(){
+            l1 = [10,20,30,40]
+            document.write(length(l1))
+        }
+        var v1=document.getElementById("id1");
+        v1.addEventListener("click",()=>{f1})
+    </script>
+    
+</body>
+</html>

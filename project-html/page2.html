@@ -76,13 +76,14 @@
        
         
     </style>
+    <script src="validate.js"></script>
 </head>
 <body>
     <div class="main">
        <div class="logo"> <img src="logo.ab024049.png" alt=""></div>
        <div class="well"><p>welcome</p></div>
        <div class="sen"><p>Log in to Digital Lync to continue to Digita Lync LMS.</p></div>
-        <form action="" method="get">
+        <form name="Myform" action="page3.html" method="get" onsubmit="return validate()">
             <div class="input-container">
                 <label for="email">Email</label>
                 <input type="email" id="email" placeholder="Enter your name" required>
@@ -90,18 +91,12 @@
             <div class="pass">
                <label for="password"></label>
                <input type="text" id ="password" placeholder="password" required>
-                <button style="color: white;" type="submit" onclick="navigateToLocalPage();">continue</button>
-                <script>
-                    function navigateToLocalPage() {
-                      // Replace 'local-page.html' with the path to your local page
-                      window.location.href = 'page3.html';
-                    }
-                  </script>
+                <button style="color: white;" type="submit">continue</button>
+                
             </div>
            
         </form>
         
-    </form>
     </div>
 </body>
 </html>

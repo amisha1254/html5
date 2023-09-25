@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Background color, change as needed */
+}
+
+.checkmark {
+    font-size: 50px; /* Adjust the size as needed */
+    color: white; /* White color for the symbol */
+}
+

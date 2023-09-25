@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ul>
+    <script>
+        var v = document.getElementsByTagName(li)
+        console.log(v)
+        for(var i=0;i<v.length;i++){
+            v[i].style.fontSize = "30px"
+            v[i].style.backgroundColor = "lightgreen"
+        }
+    </script>
+    
+</body>
+</html>

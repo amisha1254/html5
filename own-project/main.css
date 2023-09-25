@@ -1,0 +1,62 @@
+.main{
+    background-color: gray;
+    height: 1500px;
+    width: 100%;
+    position: absolute;
+}
+header{
+    padding: 10px;
+            width: 1300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color:rgb(64, 52, 56);
+            position: absolute;
+            height: 120px;
+            top: 70px;
+            left: 60px;
+
+
+}
+.logo img{
+    border-radius: 50%;
+    border: 2px solid red;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: -10px;
+}
+ .one button{
+    background-color: rgb(217, 210, 210);
+    margin-left: 25%;
+    margin-top: 5%;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+}
+.two button{
+    background-color: rgb(217, 210, 210);
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+}
+.three button{
+    background-color: rgb(217, 210, 210);
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+}
+.four button{
+    background-color: rgb(217, 210, 210);
+    margin-left: 15%;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+}
+logo{
+    display: flex;
+}

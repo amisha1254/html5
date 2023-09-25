@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <form action="">
+            <label for="fname">FirstName</label>
+            <input type="text" id="id1" onfocus="f1()" onblur="resetSize(this)" >
+            <label for="lname">LastName</label>
+            <input type="text" id="id2" onfocus="f2()" onblur="f4()" >
+        </form>
+
+    </fieldset>
+    <script>
+        
+        function f1(){
+            var v = document.getElementById("id1")
+            v.style.bordererColor = "blue"
+            v.style.padding = "10px"
+            v.style.width = "250px"
+            v.style.borderRadius = "6px"
+            v.style.height ="40px"
+
+
+        }
+        function f2(){
+            var v = document.getElementById("id2")
+            v.style.bordererColor = "blue"
+            v.style.padding = "10px"
+            v.style.width = "250px"
+            v.style.borderRadius = "6px"
+            v.style.height ="40px"
+
+
+        }
+        function f3(){
+            var v = document.getElementById("id1")
+            
+            v.style.padding="0px"
+            v.style.width="147px"
+            v.style.borderRadius="1px"
+            v.style.height="21.5px"
+
+
+
+        }
+        function f4(){
+            var v = document.getElementById("id1")
+            
+            v.style.padding="0px"
+            v.style.width="147px"
+            v.style.borderRadius="1px"
+            v.style.height="21.5px"
+
+
+
+        }
+
+
+    </script>
+</body>
+</html>

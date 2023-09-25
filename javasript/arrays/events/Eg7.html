@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <label for="">FirstName</label>
+    <input type="text" name="FirstName"id="" required>
+    <br><br>
+    <label for="">LastName</label>
+    <input type="text" name="LastName"id="" required>
+    <br><br>
+    <label for="">email/label>
+    <input type="email" name="email"id="email" required>
+    <br><br>
+    <label for="">pancard</label>
+    <input type="text" name="pancard"id="" required>
+    <br><br>
+    <button type="submit">Submit</button>
+    <script>
+        var v1 = document.getElementById("email");
+        v1.addEventListener(function(){
+            this.value=this.value.toLowercase()
+        })
+
+
+    </script>
+
+    
+</body>
+</html>

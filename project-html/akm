@@ -1,0 +1,6 @@
+<script>
+                    function navigateToLocalPage() {
+                      // Replace 'local-page.html' with the path to your local page
+                      window.location.href = 'page3.html';
+                    }
+                  </script>

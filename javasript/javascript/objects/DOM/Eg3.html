@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style>
+
+    </style>
+   
+</head>
+<body>
+    <ul>
+        <li class="list1">one</li>
+        <li class="list1">two</li>
+        <li class="list1">three</li>
+        <li class="list1">four</li>
+    </ul>
+    <script>
+        var v = document.getElementsByClassName("list1")
+        console.log(v)
+        v[0].textContent = "NameOne"
+        v[1].textContent = "NameOne"
+        v[2].textContent = "NameOne"
+        v[3].textContent = "NameOne"
+        v[0].style.fontSize = "large"
+        v[1].style.border = "2px solid blue"
+        for( var i=0;i<v.length;i++){
+            v[i].style.fontSize = "30px"
+            v[i].style.backgroundColor = "lightgreen"
+        }
+
+    </script>
+</body>
+</html>
